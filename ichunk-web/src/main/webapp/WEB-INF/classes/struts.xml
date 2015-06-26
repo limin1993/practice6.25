@@ -8,8 +8,12 @@
     <constant name="struts.ui.theme" value="simple" />
     <constant name="struts.ui.templateDir" value="template" />  
 	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.devMode" value="true" />
 	<constant name="struts.serve.static.browserCache" value="false" />
 	
+
+	<include file="struts-default.xml" />
+
 	<package name="default" namespace="/user" extends="struts-default">
         <action name="login" class="org.ichunk.action.LoginAction" method="login">
             <result name="success">/success.html</result>
