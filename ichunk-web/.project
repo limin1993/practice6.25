@@ -39,4 +39,21 @@
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>java</name>
+			<type>2</type>
+			<location>G:/developer/eclipse-j2ee/eclipse/6_25practice/practice6.25/ichunk-service/src/main/java</location>
+		</link>
+		<link>
+			<name>model</name>
+			<type>2</type>
+			<location>G:/developer/eclipse-j2ee/eclipse/6_25practice/practice6.25/ichunk-model/src/main/java</location>
+		</link>
+		<link>
+			<name>persist</name>
+			<type>2</type>
+			<location>G:/developer/eclipse-j2ee/eclipse/6_25practice/practice6.25/ichunk-persist/src/main/java</location>
+		</link>
+	</linkedResources>
 </projectDescription>

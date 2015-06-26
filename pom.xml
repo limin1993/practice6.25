@@ -123,13 +123,7 @@
             <groupId>org.apache.struts</groupId>  
             <artifactId>struts2-spring-plugin</artifactId>  
             <version>${struts2.version}</version>  
-        </dependency>  
-  
-        <dependency>  
-            <groupId>org.apache.struts</groupId>  
-            <artifactId>struts2-convention-plugin</artifactId>  
-            <version>${struts2.version}</version>  
-        </dependency>  
+        </dependency>   
   
         <!-- log4j -->  
         <dependency>  
@@ -191,6 +185,18 @@
             <artifactId>jstl</artifactId>  
             <version>1.2</version>  
         </dependency>  
+        
+        <dependency>
+		  <groupId>com.mchange</groupId>
+		  <artifactId>c3p0</artifactId>
+		  <version>0.9.5.1</version>
+		</dependency>
+		
+		<dependency>
+		  <groupId>com.mchange</groupId>
+		  <artifactId>mchange-commons-java</artifactId>
+		  <version>0.2.10</version>
+		</dependency>
   
     </dependencies>
     

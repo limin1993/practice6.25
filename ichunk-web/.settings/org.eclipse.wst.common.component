@@ -5,10 +5,16 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/model"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/persist"/>
         <dependent-module archiveName="ichunk-model-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ichunk-model/ichunk-model">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="ichunk-service-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ichunk-service/ichunk-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ichunk-persist-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ichunk-persist/ichunk-persist">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <dependent-module archiveName="ichunk-utils-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ichunk-utils/ichunk-utils">
